@@ -17,6 +17,12 @@ The data files which have been used are :
 * new_york_city.csv
 * washington.csv
 
+#### Requirements
+This program was written in R (Version 3.6.3) and RStudio (Version 1.2.5033) and also relies on the following libraries :
+* ggplot2
+* plyr
+* dplyr
+
 ### Credits
 I am really thankful to [This Page](https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=4512210&q=site:https%3A%2F%2Fwww.r-bloggers.com%2Ffeed%2F) which has inspired me to take on this interesting project in 
 R Programming and explore data analysis using amazing tools. 
