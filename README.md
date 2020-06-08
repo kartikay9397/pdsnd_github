@@ -26,3 +26,4 @@ This program was written in R (Version 3.6.3) and RStudio (Version 1.2.5033) and
 ### Credits
 I am really thankful to [This Page](https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=4512210&q=site:https%3A%2F%2Fwww.r-bloggers.com%2Ffeed%2F) which has inspired me to take on this interesting project in 
 R Programming and explore data analysis using amazing tools. 
+In order to write and complete my documentation in this markdown file [This Link](https://guides.github.com/features/mastering-markdown/) really helped me a lot. 
