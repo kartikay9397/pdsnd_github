@@ -27,6 +27,7 @@ chi_1 <- chi[,-9] # Here i have removed the ninth column from the table 'chi'
 chi_2 <- chi_1[,-8] # Here i have removed the eighth column from the table 'chi_1'
 
 cities_data <- rbind(ny_2,wash,chi_2)  # Now i have combined all the rows of the three tables
+cd <- cities_data
 head(cities_data)
 
 # First of all we have made a function named "myplot"using the pipe operator 
