@@ -59,7 +59,7 @@ myplot <- function(cl, cnt,colour){
 ## Let us check out the summary of our whole dataset which gives us a quick
 # exploration as well as good insights about our data
 
-summary(cities_data)
+cities.data <- summary(cities_data)
 
 # This summary gives us a very good briefing about our data. It has given us all
 # the meaures like Min, 1st Quartile, 3nd Quartile, Mean, Median, Mode, Max for
@@ -88,8 +88,9 @@ myplot('Start.Station',11)
 # Start.Station matches that shown by our plot, we have coded as follows.
 # And also we check out some of our summary statistics to analyse more about data
 
-head(summary(cities_data$Start.Station),1)
+Start_station <- summary(cities_data$Start.Station)
 
+head(summary(cities_data$Start.Station),1)
 mean(summary(cities_data$Start.Station))
 median(summary(cities_data$Start.Station))
 
@@ -135,8 +136,9 @@ myplot('End.Station',10)
 # common End.Station matches that shown by our plot, we have coded as follows.
 # And also we check out some of our summary statistics to analyse more about data
 
-head(summary(cities_data$End.Station),1)
+End_station <- summary(cities_data$End.Station)
 
+head(summary(cities_data$End.Station),1)
 mean(summary(cities_data$End.Station))
 median(summary(cities_data$End.Station))
 
